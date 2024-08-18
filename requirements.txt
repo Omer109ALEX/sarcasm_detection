@@ -16,3 +16,9 @@ urllib3==2.2.2
 yarl==1.9.4
 pandas==2.0.3
 numpy==1.24.3
+matplotlib
+seaborn
+scikit-learn
+tqdm
+tabulate
+fpdf
