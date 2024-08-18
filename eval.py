@@ -77,7 +77,7 @@ async def to_run(files, labels, keys):
         print(f"An error occurred during processing: {e}")
 
 # Define your file paths and labels
-files = ['./data/all/data_all.csv', './data/all/data_all_70.csv', './data/all/data_all_100.csv']
+files = ['.data_all.csv', '.data_all_70.csv', '.data_all_100.csv']
 labels = ["zero_shot", "zero_shot", "zero_shot"]
 
 # Run the asyncio tasks
