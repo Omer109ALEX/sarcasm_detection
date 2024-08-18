@@ -66,7 +66,7 @@ async def eval_zero_shot(file_path, label_name, key):
                 print("All rows have been processed.")
                 break  # Exit the function when all rows are processed
         except Exception as e:
-            model_index = model_index + 1
+            model_index = (model_index + 1) % len(models)
             print(f"An unexpected error occurred: {e}")
 
 async def to_run(files, labels, keys):
