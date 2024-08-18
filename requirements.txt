@@ -14,3 +14,4 @@ upstash-ratelimit==1.1.0
 upstash-redis==1.1.0
 urllib3==2.2.2
 yarl==1.9.4
+pandas==2.0.1
